@@ -1,15 +1,18 @@
 {
   "name": "sass-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "sass --watch sass/main.scss css/main.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.54.9"
-  }
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "description": ""
 }
